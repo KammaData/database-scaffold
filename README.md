@@ -1,6 +1,6 @@
 # database-scaffold
 
-There are many PHP scaffolding wrapper libraries; this one is [ours](https://www.kammadata.com/).
+There are many PHP database scaffolding wrapper libraries; this one is [ours](https://www.kammadata.com/).
 
 `database-scaffold` is a set of PHP libraries which wrap MySQL and PostgreSQL [PDO
 objects](https://www.php.net/manual/en/book.pdo.php), handling the DSN formatting and connections.
@@ -21,7 +21,7 @@ This repo needs documenting!
 
 ## License
 
-`PostCode` is licensed under the [BSD 3-Clause Licence](LICENSE.txt).
+`database-scaffold` is licensed under the [BSD 3-Clause Licence](LICENSE.txt).
 
 ## Release History
 
