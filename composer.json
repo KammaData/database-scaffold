@@ -1,0 +1,34 @@
+{
+    "name": "kammadata/database-scaffold",
+    "description": "MySQL and PostgreSQL PHP PDO wrapper library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gary Gale",
+            "email": "gary@kammadata.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "library",
+        "database",
+        "pdo",
+        "mysql",
+        "postgresql",
+        "kamma"
+    ],
+    "homepage": "https://github.com/KammaData/database-scaffold",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "hello@kammadata.com",
+        "issues": "https://github.com/KammaData/database-scaffold/issues"
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "KammaData\\": "src/"
+        }
+    }
+}
