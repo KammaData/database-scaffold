@@ -69,14 +69,14 @@ class PostgreSQLClient extends AbstractDatabaseClient {
         return $return;
     }
 
-    private function toNativeStringArray(array $source): string {
+    public function encodeNativeStringArray(array $source): string {
         if (empty($source)) {
             return 'null';
         }
         return sprintf('ARRAY [%s]', sprintf("'%s'", implode("','", $source)));
     }
 
-    private function toNativeJSON(array $source): string {
+    public function encodeNativeJSON(array $source): string {
         return sprintf('\'%s\'', json_encode($source));
     }
 
